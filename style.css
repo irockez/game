@@ -39,3 +39,54 @@
 #account {
     text-align: center;
 }
+
+
+
+
+/* ************************** LOBBY STYLE****************************** */ 
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 690px;              /* примерный набросок   ИСПРАВИТЬ ПРИ ЗАПОЛНЕНИИ */
+    margin-bottom: 10px;
+}
+
+.t-left {
+    padding: 0px 10px;
+    border: solid black;
+    width: 15%;
+}
+
+.t-middle {  
+    padding: 0px 10px;  
+    border: solid black;
+    width: 70%;
+    margin: 0px 20px;
+}
+
+.t-right {
+    padding: 0px 10px;
+    border: solid black;
+    width: 15%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    height: 250px;              /* примерный набросок   ИСПРАВИТЬ ПРИ ЗАПОЛНЕНИИ */
+}
+
+.b-left {
+    padding: 0px 10px;
+    border: solid black;
+    width: 85%;
+    margin-right: 20px;
+
+}
+
+.b-right {
+    padding: 0px 15px;
+    border: solid black;
+    width: 14%;
+}
